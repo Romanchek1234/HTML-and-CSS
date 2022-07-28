@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Kaushan+Script&family=Montserrat:wght@700&display=swap');
+
+
+body {
+    background-color: rgba(128, 0, 128, 0.603);
+    color: rgba(0, 0, 0, 0.658) ;
+    font: bold 20px 'Edu NSW ACT Foundation', cursive;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: darkmagenta;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.info {
+    display: flex;
+    padding-top: 30px;
+}
+@media (max-width:700px) {
+    .info{
+        display: block;
+        text-align: center;
+    }
+}
+.info h4 {
+    color: #fff9bc;
+    margin-bottom: 5px;
+}
+.info-tex {
+    margin-left: 30px;
+}
+
+.foto {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px black;
+    margin-bottom: 20px;
+}
+
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.bg-yellow {
+    background: #fff9bc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card h2 {
+    margin-bottom: 30px;
+}
+
+.hobby {
+    padding: 0 50px;
+}
+.hobby li {
+    color: #86898f ;
+    margin-bottom: 10px;
+    border-bottom: 3px solid gray;
+}
+
+.playlist {
+    width: 100%;
+}
+
+.playlist td {
+    padding-bottom: 15px;
+}
+.playlist td:nth-child(2) {
+    color: red; 
+}
+.playlist td:nth-child(1) {
+    color:rgb(124, 206, 233) ; 
+}
+.playlist tr:nth-child(even) {
+    background:greenyellow ; 
+}
+.playlist tr:nth-child(odd) {
+    background:orange ; 
+}
+
+.playlist {
+    border: 3px solid black;
+}
+.contact h2 {
+    text-align: center;
+}
+
+.formg label {
+    display: block;
+    font-size: 20px;
+    color: burlywood;
+}
+.formg input, .formg textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: solid #ccc 1px;
+    color: aqua;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row >.formg {
+    width: 50%;
+}
+.row>.formg:first-child {
+    margin-right: 20px;
+}
+
+/*.formg:hover {
+    opacity: 0.7;
+}*/
+
+.btn {
+    background-color: greenyellow;
+    color: #86898f;
+    padding: 15px 20px;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+
+.btn:hover {
+    opacity: 0.7 ;
+}
+
+.position {
+    position: relative;
+    height: 300px;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.menu-box {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background: lightcoral;
+    border-radius: 10px;
+}
+
